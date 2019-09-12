@@ -61,6 +61,7 @@ footer {
     padding-left: 3px;
     padding-right: 3px;
     padding-bottom: 3px;
+    box-shadow: 0 4px 8px 0 black;
     transition: 0.5s;
 }
 
