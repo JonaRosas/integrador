@@ -88,7 +88,8 @@ p {
 .receta-flex {
     display: flex;
     flex-direction: row;
-    text-align: center;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .receta1 {
