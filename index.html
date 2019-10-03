@@ -6,12 +6,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="Jonathan Rosas">
 
     <title>Mundo Saludable</title>
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Noto+Sans+JP&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="scss/style.css">
+    <style>
+        h1 {
+            width: 2px;
+            height: 0px;
+            text-indent: -1999px;
+            overflow: hidden;
+        }
+
+    </style>
 
 </head>
 
@@ -20,7 +29,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark static-top navbar_style" id="inicio">
         <div class="container">
-            <a class="navbar-brand" href="#inicio">Mundo Saludable</a>
+            <a class="navbar-brand" href="#inicio"><img src="imagenes/logo-01.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -48,7 +57,13 @@
     </nav>
 
     <div class="container-fluid">
-        <h1>MUNDO SALUDABLE</h1>
+        <picture>
+            <source srcset="imagenes/banner_movil.jpg" media="(max-width:460px)">
+            <source srcset="imagenes/banner_tablet.jpg" media="(max-width:800px)">
+            <img src="imagenes/banner.jpg" alt="Mundo Saludable" class="img-fluid">
+        </picture>
+
+        <h1>Mundo saludable</h1>
     </div>
 
     <hr>
@@ -254,4 +269,6 @@
 
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.slim.min.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script></html>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</html>
