@@ -1,0 +1,31 @@
+{
+    "name": "integrador",
+    "version": "1.0.0",
+    "description": "integrador",
+    "main": "index.js",
+    "scripts": {
+        "test": "test",
+        "build-css": "node-sass --inlude-path scss scss/style.scss scss/style.css",
+        "watch-css": "nodemon -e scss -x \"npm run build-css\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JonaRosas/integrador.git"
+    },
+    "keywords": [
+    "integrador",
+    "curso",
+    "coderhouse"
+  ],
+    "author": "Jonathan Rosas",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/JonaRosas/integrador/issues"
+    },
+    "homepage": "https://github.com/JonaRosas/integrador#readme",
+    "dependencies": {
+        "d-": "^1.0.0",
+        "node-sass": "^4.12.0",
+        "nodemon": "^1.19.2"
+    }
+}

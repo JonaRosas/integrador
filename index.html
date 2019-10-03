@@ -2,104 +2,135 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
     <title>Mundo Saludable</title>
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="scss/style.css">
+
 </head>
-<link rel="stylesheet" type="text/css" href="style.css">
-<link href="https://fonts.googleapis.com/css?family=Montserrat|Noto+Sans+JP&display=swap" rel="stylesheet">
 
 <body>
-    <header id="inicio">
 
-    </header>
-    <nav>
-        <div class="principal">
-            <div class="navbar">
-                <ul class="barra">
-                    <li><a href="#beneficio">Beneficios</a></li>
-                    <li><a href="#porque">¿Por qué cuidarte?</a></li>
-                    <li><a href="#receta">Recetas</a></li>
-                    <li><a href="#ejercicio">Ejercicios</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark static-top navbar_style">
+        <div class="container">
+            <a class="navbar-brand" href="#inicio">Mundo Saludable</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class=".navbar_link nav-item .navbar_link">
+                        <a class="nav-link" href="#beneficio">Beneficios
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#porque">¿Por qué cuidarnos?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#recetas">Recetas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ejercicios">Ejercicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <div>
-        <h1>MUNDO SALUDABLE</h1>
+    <div class="container-fluid">
+        <h1 id="inicio">MUNDO SALUDABLE</h1>
     </div>
 
     <hr>
-    <div>
-        <h2 id="beneficio">Beneficios de cuidar la salud</h2>
-        <div class="beneficio-flex">
-            <div>
-                <ul class="box">
-                    <img src="imagenes/icon/musculo-01.png" alt="Inmunológico">
-                    <h3>CUERPO</h3>
-                    <li>Beneficio 1</li>
-                    <li>Beneficio 2</li>
-                    <li>Beneficio 3</li>
-                    <li>Beneficio 4</li>
-                </ul>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <h2 id="beneficio" class="">Beneficios de cuidar la salud</h2>
             </div>
-            <div>
-                <ul class="box">
-                    <img src="imagenes/icon/mente-01.png" alt="Inmunológico">
-                    <h3>MENTE</h3>
-                    <li>Beneficio 1</li>
-                    <li>Beneficio 2</li>
-                    <li>Beneficio 3</li>
-                    <li>Beneficio 4</li>
-                </ul>
-            </div>
-            <div>
-                <ul class="box">
-                    <img src="imagenes/icon/inmune-01.png" alt="Inmunológico">
-                    <h3>SISTEMA INMUNOLÓGICO</h3>
-                    <li>Beneficio 1</li>
-                    <li>Beneficio 2</li>
-                    <li>Beneficio 3</li>
-                    <li>Beneficio 4</li>
-                </ul>
-            </div>
-            <div>
-                <ul class="box">
-                    <img src="imagenes/icon/corazon-01.png" alt="Corazon">
-                    <h3>SISTEMA CARDIOVASCULAR</h3>
-                    <li>Beneficio 1</li>
-                    <li>Beneficio 2</li>
-                    <li>Beneficio 3</li>
-                    <li>Beneficio 4</li>
-                </ul>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <div class="card-deck">
+                    <div class="card">
+                        <img class="card-img-top img-fluid " src="imagenes/icon/corazon-01.png" alt="Sistema Cardiovascular">
+                        <div class="card-body">
+                            <h4 class="card-title">Sistema Cardiovascular</h4>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Card title</h4>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Card title</h4>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Card title</h4>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
     </div>
-    <div class="porque">
-        <hr>
-        <h2 id="porque">¿Por qué debemos cuidarnos?</h2>
-        <p> Una buena nutrición (una dieta suficiente y equilibrada, combinada con el ejercicio físico regular) es un elemento fundamental de la buena salud.
+    <hr>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <h2 id="porque">¿Por qué debemos cuidarnos?</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p> Una buena nutrición (una dieta suficiente y equilibrada, combinada con el ejercicio físico regular) es un elemento fundamental de la buena salud.
 
-            Una mala nutrición puede debilitar el sistema inmunológico, aumentar la vulnerabilidad a las enfermedades, alterar el desarrollo físico y mental y reducir la productividad.
+                    Una mala nutrición puede debilitar el sistema inmunológico, aumentar la vulnerabilidad a las enfermedades, alterar el desarrollo físico y mental y reducir la productividad.
 
-            Una alimentación no adecuada puede reducir el tiempo y calidad de vida.
+                    Una alimentación no adecuada puede reducir el tiempo y calidad de vida.
 
-            Hoy en día los problemas relacionados a la alimentación no solo son por carencias nutricionales como la desnutrición, si no también por excesos como la obesidad.</p>
+                    Hoy en día los problemas relacionados a la alimentación no solo son por carencias nutricionales como la desnutrición, si no también por excesos como la obesidad.</p>
 
-        <p> De hecho, la alimentación poco saludable está relacionada con muchas de las principales causas de muerte, entre ellas, las enfermedades coronarias, los accidentes cerebrovasculares, la diabetes, hipertensión, entre otras.
+                <p> De hecho, la alimentación poco saludable está relacionada con muchas de las principales causas de muerte, entre ellas, las enfermedades coronarias, los accidentes cerebrovasculares, la diabetes, hipertensión, entre otras.
 
-            Para una dieta balanceada y adecuada es necesario saber algunos datos como el peso, edad, actividad física y en base a ello el nutricionista elaborará la dieta sin llegar a ser restrictiva.
+                    Para una dieta balanceada y adecuada es necesario saber algunos datos como el peso, edad, actividad física y en base a ello el nutricionista elaborará la dieta sin llegar a ser restrictiva.
 
-            No olvidar que debe incluir cinco comidas: el desayuno, media mañana, almuerzo, media tarde y cena. Para la prevención de enfermedades come sano, practica una actividad física, toma dos litros de agua al día y ten una actitud positiva. </p>
-        <hr>
+                    No olvidar que debe incluir cinco comidas: el desayuno, media mañana, almuerzo, media tarde y cena. Para la prevención de enfermedades come sano, practica una actividad física, toma dos litros de agua al día y ten una actitud positiva. </p>
+            </div>
+        </div>
     </div>
-    <div>
-        <h2 id="receta">Recetas fáciles y rápidas</h2>
-        <div class="receta-flex">
-            <div class="receta1">
+    <hr>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <h2 id="receta">Recetas fáciles y rápidas</h2>
+            </div>
+        </div>
+
+        <div class="row p-3">
+            <div class="col-12 col-md-8 col-lg-8">
                 <h3>Tarta de Zapallitos</h3>
                 <p><strong>Ingredientes:</strong></p>
                 <p><strong><em>Para la masa</em></strong></p>
@@ -110,75 +141,95 @@
                 <p>Integra todos los ingredientes en un bowl, luego agregar los zucchini y el zapallito cortado, esta prepacion agregarla sobre la masa y cocinala en el horno por otros 40 minutos a 180° </p>
 
             </div>
-            <div class="receta1_img"><img src="imagenes/tarta_zapallito.jpg" alt="Tarta de Zapallitos"></div>
+            <div class="col-12 col-md-4 col-lg-4 receta1_img"><img src="imagenes/tarta_zapallito.jpg" alt="Tarta de Zapallitos" class="img-fluid"></div>
         </div>
-        <div class="receta-flex">
-            <div class="receta1">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita dolorem optio consequuntur? Fugiat, soluta nisi. Unde iusto similique inventore aliquam quis neque labore, vel delectus est corporis ipsam magnam illum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi earum in, aut sint sed veritatis a, officiis saepe. Assumenda voluptatem iure ullam nulla suscipit harum quisquam asperiores doloremque mollitia illum.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita dolorem optio consequuntur? Fugiat, soluta nisi. Unde iusto similique inventore aliquam quis neque labore, vel delectus est corporis ipsam magnam illum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi earum in, aut sint sed veritatis a, officiis saepe. Assumenda voluptatem iure ullam nulla suscipit harum quisquam asperiores doloremque mollitia illum.
+        <div class="row p-3">
+            <div class="col-12 col-md-8 col-lg-8">
+                <h3>Tarta de Zapallitos</h3>
+                <p><strong>Ingredientes:</strong></p>
+                <p><strong><em>Para la masa</em></strong></p>
+                <p> 370 gr de harina integral - 1 cda de sal - 2 cdas de aceite - 1 cda de perejil - 3 cdas mix de semillas - 100 ml de agua .</p>
+                <p>Integra todo y amasa hasta lograr una masa lisa y homogenea. Estira y pon un poco de roció vegetal, colócola en un molde. Pinchala y hornéala por 15 min a 180° </p>
+                <p><strong><em>Para la mezcla</em></strong></p>
+                <p>3 claras de huevos - 1 cda de mostaza - 2 cda de queso crema - 2 cdas de cebolla deshidratada - 1 cda de Maicena - 50gr queso rallado - 2 Zucchini - 1 Zapallito</p>
+                <p>Integra todos los ingredientes en un bowl, luego agregar los zucchini y el zapallito cortado, esta prepacion agregarla sobre la masa y cocinala en el horno por otros 40 minutos a 180° </p>
+
             </div>
-            <div class="receta1_img"><img src="imagenes/comida.jpg" alt="COMIDA"></div>
-        </div>
-        <div class="recete-flex">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam doloribus perspiciatis totam vel et, autem tenetur voluptate laboriosam voluptatum delectus sunt natus, praesentium incidunt nulla commodi impedit repellendus eveniet ducimus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id aspernatur deleniti voluptatem veniam porro dolorum, veritatis debitis nam pariatur. Est ab vitae at, sunt quibusdam illum harum. Animi, commodi, facere?Lorem ipsum dolor sit amet, <strong>consectetur adipisicing elit. Quo aliquam consectetur mollitia</strong> possimus hic esse distinctio numquam, commodi maiores sint earum laudantium veniam pariatur! Quisquam blanditiis voluptate repellat! Perferendis, fugit.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas culpa distinctio molestias saepe repudiandae assumenda, eum voluptatibus eius aliquam delectus sint, <em>officiis deleniti nam, rerum laboriosam praesentium enim non.</em> Quis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis officia placeat, temporibus in, similique totam minus quis dicta incidunt inventore tenetur sint beatae? Sint aliquid voluptatem quia consequatur veritatis reprehenderit.</p>
-        </div>
-        <hr>
-
-    </div>
-    <div>
-        <h2 id="ejercicio">Guia de ejercicios</h2>
-        <div class="video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/c_IdhmpFtqM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/JnDu110SBN0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="col-12 col-md-4 col-lg-4 receta1_img"><img src="imagenes/tarta_zapallito.jpg" alt="Tarta de Zapallitos" class="img-fluid"></div>
         </div>
     </div>
 
-    <div class="contacto_padre">
-        <h2 id="contacto">Contacto</h2>
-        <div class="contacto-flex">
-            <div class="contacto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam doloribus perspiciatis totam vel et, autem tenetur voluptate laboriosam voluptatum delectus sunt natus, praesentium incidunt nulla commodi impedit repellendus eveniet ducimus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id aspernatur deleniti voluptatem veniam porro dolorum, veritatis debitis nam pariatur. Est ab vitae at, sunt quibusdam illum harum. Animi, commodi, facere?Lorem ipsum dolor sit amet.
+    <hr>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <h2 id="ejercicio">Guia de ejercicios</h2>
             </div>
-            <div class="form">
-                <form>
-                    <fieldset>
-                        <legend>Informacion Personal</legend>
-                        <div>Sexo</div>
-                        <input type="radio" name="sexo" value="hombre"> Hombre
-                        <input type="radio" name="sexo" value="hombre"> Mujer
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-4 col-lg-4">
+                <iframe height="300px" width="100%" src="https://www.youtube.com/embed/c_IdhmpFtqM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col-12 col-md-4 col-lg-4">
+                <iframe height="300px" width="100%" src="https://www.youtube.com/embed/JnDu110SBN0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col-12 col-md-4 col-lg-4">
+                <iframe width="100%" height="300px" src="https://www.youtube.com/embed/Js1wnaDLiHQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
 
+        </div>
+    </div>
+    <hr>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <h2 id="contacto">Contacto</h2>
+            </div>
+        </div>
 
-                        <div>Nombre</div>
-                        <label for="nombre"></label>
-                        <input type="text" name="nombre" value="Nombre">
-                        <div>Apellido</div>
-                        <label for="apellido"></label>
-                        <input type="text" name="apellido" value="Apellido">
-
-                        <div>Email</div>
-                        <label for="email"></label>
-                        <input type="text" name="email" value="Email">
-
-                        <div>Comentarios</div>
-                        <textarea name="comentarios">Escribe aquí tus comentarios</textarea>
-                        <br>
-                        <div>
-                            <input type="submit" name="Enviar Formulario">
-                            <input type="reset" name="Limpiar Formulario">
-                        </div>
-
-                    </fieldset>
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-6 contacto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam doloribus perspiciatis totam vel et, autem tenetur voluptate laboriosam voluptatum delectus sunt natus, praesentium incidunt nulla commodi impedit repellendus eveniet ducimus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id aspernatur deleniti voluptatem veniam porro dolorum, veritatis debitis nam pariatur. Est ab vitae at, sunt quibusdam illum harum. Animi, commodi, facere?Lorem ipsum dolor sit amet.
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 form">
+                <form action="" method="post" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Nombre</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Mensaje</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
                 </form>
+
+
             </div>
 
         </div>
     </div>
 
 </body>
-<footer>
-    <div class="pie">
-        <p>TEXTO</p>
-        <a href="#inicio">Inicio</a>
+<footer class="footer static-bottom footer_style">
+    <div class="container-fluid">
+        <div class="row p-2 text-center">
+            <div class="col-12 col-md-6 col-lg-6">
+                <p>TEXTO</p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6">
+                <a href="#inicio">Inicio</a>
+            </div>
+        </div>
     </div>
-</footer></html>
+</footer>
+
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.slim.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</html>
